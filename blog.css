@@ -44,3 +44,78 @@ i {
     padding: 7px 15px;
     border-radius: 5px;
 }
+
+.banner img {
+    width: 150px;
+    height: 50px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.banner h3 {
+    color: lightgray;
+    font-weight: 200;
+    margin: 0;
+}
+
+.parent-one {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.one-img {
+    width: 75%;
+}
+
+.one-img img {
+    width: 100%;
+}
+
+.one-info {
+    width: 50%;
+}
+
+.one-info h4 {
+    color: rgb(61, 120, 222);
+    font-size: 25px;
+}
+
+.one-info h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.one-info p {
+    color: gray;
+    font-size: 25px;
+}
+
+.author-div {
+    display: flex;
+    gap: 10px;
+}
+
+.author-div img {
+    width: 50px;
+    height: 50px;
+}
+
+.author-div h4 {
+    font-size: 13px;
+    color: black;
+    margin: 0;
+    margin: 5px 0px;
+}
+
+.author-div h4:nth-child(2) {
+    color: gray;
+}
