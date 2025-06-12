@@ -119,3 +119,61 @@ i {
 .author-div h4:nth-child(2) {
     color: gray;
 }
+
+.parent-three {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.parent-three .child {
+    width: 33.333%;
+    ;
+}
+
+.parent-three .child img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.parent-three .child>h4 {
+    color: rgb(61, 120, 222);
+    font-size: 25px;
+}
+
+.parent-three .child>p {
+    color: gray;
+    font-size: 20px;
+}
+
+.parent-four {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+section {
+    padding: 50px 0px;
+    border-bottom: 2px solid lightgray;
+}
+
+.parent-four .child {
+    width: 50%;
+}
+
+.parent-four .child img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.parent-four .child>h4 {
+    color: rgb(61, 120, 222);
+    font-size: 25px;
+}
+
+.parent-four .child>p {
+    color: gray;
+    font-size: 20px;
+}
